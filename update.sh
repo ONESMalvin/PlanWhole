@@ -7,6 +7,8 @@ for repo in ${repo_list[*]}; do
     echo "repo: ${repo}"
     git checkout ${preview_env}
     git pull
+    git checkout master
+    git pull
     master_hash=`git rev-parse master`
     perview_hash=`git rev-parse ${previe_env}`
     echo $master_hash $perview_hash
