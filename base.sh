@@ -2,19 +2,19 @@
 
 # 本地仓库列表
 # eg: repo_list=('bang-api' 'wiki-api' 'audit-log-sync' 'ones-ai-api-common' 'ones-platform-api' 'ones-ai-docker' 'ones-plugin-node')
-repo_list=()
+repo_list=('bang-api' 'wiki-api' 'audit-log-sync' 'ones-ai-api-common' 'ones-devops')
 
 # 版本名称 下划线命名 主要作为hotfix 分支
 # eg: version='3_11_25'
-version=''
+version='3_11_50'
 
 # 车名 
 # eg: train='v3.11.25'
-train=''
+train='v3.11.50'
 
 # preview 环境 对应分支
 # eg：preview_env='preview1'
-preview_env=''
+preview_env='preview1'
 
 # 仓库目录
 # 最终 以 ${srcbase}/repo.git
