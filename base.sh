@@ -2,7 +2,7 @@
 
 # 本地仓库列表
 # eg: repo_list=('bang-api' 'wiki-api' 'audit-log-sync' 'ones-ai-api-common' 'ones-platform-api' 'ones-ai-docker' 'ones-plugin-node')
-repo_list=('bang-api' 'wiki-api' 'ones-ai-api-common' 'ones-platform-api')
+repo_list=('bang-api' 'wiki-api' 'ones-ai-api-common' 'ones-platform-api' 'ones-ai-docker')
 
 # 版本名称 下划线命名 主要作为hotfix 分支
 # eg: version='3_11_25'
