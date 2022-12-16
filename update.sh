@@ -4,7 +4,7 @@ source base.sh
 
 for repo in ${repo_list[*]}; do
     cd ${srcbase}/${repo}
-    echo "repo: ${repo}"
+    echo "${GREEN} repo: ${repo} ${NC}"
     git checkout ${preview_env}
     git pull
     git checkout master
